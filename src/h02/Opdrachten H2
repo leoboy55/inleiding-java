@@ -1,0 +1,21 @@
+Opdrachten H2
+
+Vragen
+
+1: Wat is een machine taal?
+2: Welke drie hulpmiddelen heb je nodig om te programmeren?
+3: Hoe herken je opdrachten in de broncode?
+4: Waartoe dienen de import-opdrachten?
+5: Wat is een methode?
+
+Antwoorden
+
+1: Machine taal is een taal waarin instructies geschreven zijn
+Die de processor van een computer direct kan uitvoeren. Deze taal
+bestaat uit 0 en 1.
+2: een teksteditor of een broncode-editor voor het invoeren van programmeercode.
+   een compiler en een linker.
+   een debugger.
+3: Bron code eindigt met ;
+4: Dat zijn codes die andere hebben gemaakt die jezelf kunt gebruiken.
+5: Herbruikbare stuk code met een naam erbij.

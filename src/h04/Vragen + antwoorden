@@ -1,0 +1,23 @@
+Vragen:
+
+1- Wat is een platform?
+2- Waarom hoeft een programmeur in Java maar één keer een programma te schrijven voor verschillende platforms?
+3- Wat is bytecode?
+4- Wat doet JVM?
+5- Met welke methode kun je een vierkant tekenen?
+6- Noem drie methodes waarmee je een cirkel kunt tekenen
+7- Waarom worden opdrachten voor het scherm in paint() gezet en niet in een andere methode?
+
+
+
+Antwoorden:
+
+1- Een platform is een basis waarop software word ontwikkeld. Een voorbeeld is Java.
+2- Java vertaald de broncode naar een taal die standaard (bytecode).
+3- Bytecode is een tussentaal die standaard is en meerdere processors ondersteund..
+4- JVM vertaal de bytecode naar machine taal.
+5- g.drawRect(20, 20, 100, 100);
+6- g.drawOval(20, 20, 50, 100);
+   g.drawArc(20, 20, 100, 50, 90, 45);
+   g.drawRoundRect(20, 20, 100, 50, 10, 10);
+7- Anders werken de commando's niet.

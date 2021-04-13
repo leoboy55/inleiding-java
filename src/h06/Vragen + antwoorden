@@ -1,0 +1,43 @@
+Vragen:
+
+1. Waarom is initialiseren van variabelen noodzakelijk?
+
+2. Waarom is er typecasting noodzakelijk bij de conversie van een double naar een int?
+
+//Voorbeeld 6.4
+
+import java.awt.*;
+import java.applet.*;
+
+
+public class Reken extends Applet {
+    int a, b, c;
+    double uitkomst;
+
+
+    public void init() {
+        a = 8;
+        b = 8;
+        c = 3;
+        uitkomst = (a + b) / c;
+    }
+
+    public void paint(Graphics g) {
+        g.drawString("De uitkomst is: " + uitkomst, 20, 20);
+    }
+}
+3. Wat is de uitvoer van dit programma? Geef een verklaring.
+
+4. In de regel uitkomst = (a + b) / c; laat je de ronde haken weg. De regel ziet er dan als volgt uit:
+
+uitkomst = a + b / c;
+5. Wat is de uitvoer van dit programma? Geef een verklaring.
+
+
+Antwoorden:
+
+1. Omdat de variabelen anders geen waardes hebben.
+2. Anders kan de conversie niet plaatsvinden en krijg je en foutmelding van de compiler.
+3. 5.33333333, want de uitkomst heeft de variable dubbel dus er komen cijvers achter de komma.
+4. uitkomst = a + b / c;
+5. 8(a) word gedeeld door 3(c) en dan plus 8(b) = 10.666666667

@@ -8,8 +8,8 @@ public class H4_1 extends Applet{
 
     }
 public void paint(Graphics g){
-    g.drawArc(20, 20, 800, 400, 90, 45);
-    g.fillArc(20, 20, 800, 400, 90, 45);
+    g.drawArc(20, 60, 800, 400, 90, 45);
+    g.fillArc(20, 60, 800, 400, 90, 45);
 
 }
 }

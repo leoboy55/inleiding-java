@@ -1,0 +1,18 @@
+Vragen
+
+1.Wat is event-handling?
+2.Wat is een gebruikersinterface?
+3.Waarom moet er voor een knop wel en voor een tekst geen event-handling geprogrammeerd worden?
+4.Wat is een lege string?
+5.Wat is het verschil tussen een tekstvak en een label?
+6.Waarom moeten getallen uit een tekstvak altijd geconverteerd worden naar een double of een int?
+
+
+Antwoorden
+
+1. Dat je vertelt wat de functie van een object is en wat het moet uitvoeren.
+2. De manier hoe een programma zich presenteer naar de gebruiker toe.
+3. Op de knop druk je en word wat verwacht bij een tekst niet.
+4. Een lege string houd in; dat de data in de actionlistener nog toegevoegd moet worden.
+5. In een tekstvak kunnen je typen als gebruiker in een label niet.
+6. Omdat de tekst standaard een String variabel is.

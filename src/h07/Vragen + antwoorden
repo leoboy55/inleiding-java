@@ -1,0 +1,31 @@
+Vragen
+
+Je kunt in de methode init() van je applet de afmetingen van het scherm bepalen met de methode setSize(int width, int height).
+Tussen de haakjes wordt aangegeven dat deze methode twee argumenten (of parameters) van het type int verwacht. Je kunt de methode als volgt "aanroepen":
+
+import java.awt.*;
+import java.applet.*;
+
+public class Show extends Applet {
+
+  public void init() {
+    setSize(400, 300);
+  }
+
+  public void paint(Graphics g) {
+    g.drawString("Welcome to Java!!", 50, 60 );
+  }
+}
+1. Kun je in de Java API (zie web-links) deze methode ergens vinden?
+
+2. In welke klasse wordt deze methode gedefinieerd?
+
+3. Dezelfde klasse heeft een tweede methode met dezelfde naam. Wat is het verschil?
+
+
+Antwoorden
+
+1. Dimesion
+2. In de: public void init(){
+}
+3. De methode heeft een andere functie ondanks dat het dezelfde naam heeft (overloading).

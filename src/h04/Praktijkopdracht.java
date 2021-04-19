@@ -34,7 +34,7 @@ public class Praktijkopdracht extends Applet {
         g.setColor(Color.black);
         g.drawString("Gevulde ovaal", 600, 600);
 
-        //Taartpunt met ovaal eromheen
+        //Taart punt met Ovaal Eromheen
         g.drawOval(880, 50, 380, 240);
         g.drawArc(880, 50, 380, 240, 0, 45);
         g.setColor(Color.magenta);
@@ -42,23 +42,10 @@ public class Praktijkopdracht extends Applet {
         g.setColor(Color.black);
         g.drawString("Taartpunt met ovaal eromheen", 990, 320);
 
+
         //Cirkel
         g.drawOval(950, 330, 240, 240);
         g.drawString("Cirkel", 1050, 600);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
     }
 

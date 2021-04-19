@@ -10,7 +10,7 @@ public class H5_2 extends Applet {
     int Hans;
     Color Vullingrood,Vullingblauw,Vullinggeel;
     Color Lijnkleur;
-    boolean IsVolwassen;
+    int TabelLijnHorizontaal;
 
 
     public void init() {
@@ -22,6 +22,7 @@ public class H5_2 extends Applet {
         Vullingblauw = Color.blue;
         Vullinggeel = Color.yellow;
         Lijnkleur = Color.black;
+        TabelLijnHorizontaal = 300;
     }
 
 
@@ -32,27 +33,52 @@ public class H5_2 extends Applet {
 
         //Staafgrafiek Valerie
         g.setColor(Lijnkleur);
-        g.drawRect(30,200 - Valerie, 30, Valerie);
+        g.drawRect(100,200 - Valerie, 30, Valerie);
         g.setColor(Vullingrood);
-        g.fillRect(30, 200 - Valerie, 30, Valerie);
+        g.fillRect(100, 200 - Valerie, 30, Valerie);
         g.setColor(Lijnkleur);
-        g.drawString("Valerie", 30, 220);
+        g.drawString("Valerie", 100, 220);
 
         //Staafgrafiek Jeroen
         g.setColor(Lijnkleur);
-        g.drawRect(80,200 - Jeroen,30,Jeroen);
+        g.drawRect(150,200 - Jeroen,30,Jeroen);
         g.setColor(Vullingblauw);
-        g.fillRect(80,200 - Jeroen,30,Jeroen);
+        g.fillRect(150,200 - Jeroen,30,Jeroen);
         g.setColor(Lijnkleur);
-        g.drawString("Jeroen", 80, 220);
+        g.drawString("Jeroen", 150, 220);
 
-        //
+        //Hans
         g.setColor(Lijnkleur);
-        g.drawRect(130,200 - Hans,30,Hans);
+        g.drawRect(200,200 - Hans,30,Hans);
         g.setColor(Vullinggeel);
-        g.fillRect(130,200 - Hans,30,Hans);
+        g.fillRect(200,200 - Hans,30,Hans);
         g.setColor(Lijnkleur);
-        g.drawString("Hans", 130, 220);
+        g.drawString("Hans", 200, 220);
+
+        //TabelLijnen 100KG
+        g.setColor(Lijnkleur);
+        g.drawLine(50,100,TabelLijnHorizontaal,100);
+        g.drawString("100KG", 5, 105);
+        //Tabelijnen 80KG
+        g.setColor(Lijnkleur);
+        g.drawLine(50,120,TabelLijnHorizontaal,120);
+        g.drawString("80KG", 5, 125);
+        //Tabelijnen 60KG
+        g.setColor(Lijnkleur);
+        g.drawLine(50,140,TabelLijnHorizontaal,140);
+        g.drawString("60KG", 5, 145);
+        //Tabellijnen 40kg
+        g.setColor(Lijnkleur);
+        g.drawLine(50,160,TabelLijnHorizontaal,160);
+        g.drawString("40KG", 5, 165);
+        //Tabellijnen 20kg
+        g.setColor(Lijnkleur);
+        g.drawLine(50,180,TabelLijnHorizontaal,180);
+        g.drawString("20KG", 5, 185);
+        //Tabellijnen 0kg
+        g.setColor(Lijnkleur);
+        g.drawLine(50,200,TabelLijnHorizontaal,200);
+        g.drawString("0KG", 5, 205);
 
     }
 }

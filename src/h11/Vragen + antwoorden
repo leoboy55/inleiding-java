@@ -1,0 +1,23 @@
+Vragen
+
+1.Wat is het verschil tussen een while- en een for-lus?
+
+2.Wat is het nesten van lussen?
+
+3. Bekijk de volgende broncode
+
+int eind = 5;
+for(int i = 10;  i < eind;  i++) {
+     ....
+     ....
+}
+Wordt de lus uitgevoerd? Geef een verklaring voor je antwoord
+
+
+Antwoorden
+
+1. in de while statement zit de teller buiten de lus en in de for statement niet.
+
+2. meerdere voorwaardes invoeren.
+
+3. ja, want je mag nieuwe variabelen in de lus aangeven.

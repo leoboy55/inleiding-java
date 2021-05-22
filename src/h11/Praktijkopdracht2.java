@@ -18,8 +18,8 @@ public class Praktijkopdracht2 extends Applet {
         knop1 = new Button("OK");
         knop1.addActionListener(new Knop1functie());
 
-        tafel = 1;
-        button1IsGeklikt = false;
+        tafel = 0;
+        button1IsGeklikt = true;
 
         add(labelTekst);
         add(knop1);
@@ -27,32 +27,25 @@ public class Praktijkopdracht2 extends Applet {
     }
 
     public void paint(Graphics g) {
+        setTafel(g);
+    }
 
-        if (button1IsGeklikt = true) {
 
-            int y = 100;
-
-            for (int i = 1; i < 11; i++) {
-
-                int tafelUitkomst = i * tafel;
-
-                g.drawString(i + " x " + tafel + " = " + tafelUitkomst, 200, y);
-
-                y += 20;
-            }
-            tafel ++;
+    public void setTafel(Graphics g) {
+        int y = 100;
+        tafel++;
+        for (int i = 1; i < 11; i++) {
+            int tafelUitkomst = i * tafel;
+            String x = i + " x " + tafel + " = " + tafelUitkomst;
+            g.drawString(x, 200, y);
+            y += 20;
         }
     }
 
 
     class Knop1functie implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-
-            if (button1IsGeklikt = true) {
-                repaint();
-            }
+            repaint();
         }
     }
 }
-
-

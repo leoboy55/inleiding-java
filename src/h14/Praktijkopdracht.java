@@ -39,8 +39,12 @@ public class Praktijkopdracht extends Applet {
         if (totaleSmilleys > 0)
             g.drawString("Aantal Weed: " + totaleSmilleys + " Jouw beurt.", 200, 100);
 
-        else {
+        else if (totaleSmilleys < - 1) {
             g.drawString("je hebt verloren ", 200, 100);
+        }
+
+        else {
+            g.drawString("je hebt gewonnen ", 200, 100);
         }
 
         int x = 20;

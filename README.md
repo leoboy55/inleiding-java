@@ -1,5 +1,3 @@
 # inleiding-java
 
-Fork het project. Je hebt dan een eigen kopie van de repository. Clone deze fork naar je computer en open het in IntelliJ
-
-Luid en duidelijk.
+Mijn eerste opdrachten in het ROC Almere als software developer niveau 4. Hier kwam ik voor het eerst in contact met programmeren. Hier leerde ik alleen de basis.
